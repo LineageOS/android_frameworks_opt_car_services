@@ -6,7 +6,7 @@ package {
 java_sdk_library {
     name: "car-frameworks-service",
     libs: [
-        "services",
+        "services.impl",
         "android.car",
         "android.car.builtin.stubs.module_lib", // Will remove once split is complete
         "android.hardware.automotive.vehicle-V2.0-java",
